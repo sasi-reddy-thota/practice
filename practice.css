@@ -1,0 +1,10 @@
+body{
+    background-color: gray;
+}
+.calc-grid{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+}
